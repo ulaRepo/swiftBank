@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const connectDB = async()=> {
   try {
     mongoose.set('strictQuery', false);
-    const conn = await mongoose.connect('mongodb+srv://pius1:pius123@webdevelopment.xav1dsx.mongodb.net/swiftBank');
+    const conn = await mongoose.connect('mongodb+srv://marcelpolocha1:081358pius@cluster0.f9a85hv.mongodb.net/swiftBank');
     console.log(`Database Connected: ${conn.connection.host}`);
   } catch (error) {
     console.log(error);
